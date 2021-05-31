@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0c7d4e503f4b4e6cb22f00af9552c63f" Name="Diagram1">
+        <EntityTypeShape EntityType="voltshopdbModel.categorias" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="voltshopdbModel.compras" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="voltshopdbModel.descripcionCompra" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="voltshopdbModel.descripcionVenta" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="voltshopdbModel.envios" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="voltshopdbModel.paqueterias" Width="1.5" PointX="6" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="voltshopdbModel.productos" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="voltshopdbModel.proveedores" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="voltshopdbModel.tiposUsuario" Width="1.5" PointX="3.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="voltshopdbModel.usuarios" Width="1.5" PointX="6" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="voltshopdbModel.ventas" Width="1.5" PointX="6" PointY="2.25" IsExpanded="true" />
+        <AssociationConnector Association="voltshopdbModel.FK__producto__id_cat__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="voltshopdbModel.FK__compra__id_prove__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="voltshopdbModel.FK__descripci__id_co__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="voltshopdbModel.FK__descripci__id_pr__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="voltshopdbModel.FK__descripci__id_pr__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="voltshopdbModel.FK__descripci__id_ve__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="voltshopdbModel.FK__envio__id_paquet__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="voltshopdbModel.FK__envio__id_usuari__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="voltshopdbModel.FK__envio__id_venta__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="voltshopdbModel.FK__usuario__id_tipo__35BCFE0A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
